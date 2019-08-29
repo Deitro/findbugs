@@ -1,0 +1,19 @@
+@import '~normalize.css';
+
+html, body {
+  font-family: 'Roboto';
+}
+
+a.btn {
+  display: inline-block;
+  padding: .5em 1em;
+  background: #f94;
+  border-radius: .3em;
+  border: 1px solid #b53;
+  cursor: pointer;
+
+  &:hover {
+    background: #fc7;
+    border-color: #e86;
+  }
+}

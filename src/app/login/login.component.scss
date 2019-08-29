@@ -1,0 +1,38 @@
+.form-field {
+  display: flex;
+  margin-bottom: .5em;
+
+  label {
+    width: 5em;
+  }
+
+  input.ng-invalid {
+    background: #f99;
+  }
+}
+
+.error {
+  margin: 2em;
+  padding: .5em 1em;
+  background: #f99;
+}
+
+.tasks {
+  margin: 3em;
+  padding: 1em;
+  background: #eee;
+
+  .title {
+    margin-left: 1.2em;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  ol, ul {
+    margin-top: .5em;
+
+    li {
+      margin-bottom: .5em;
+    }
+  }
+}

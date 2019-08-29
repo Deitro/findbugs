@@ -1,0 +1,31 @@
+header {
+  display: flex;
+  background: #eef;
+  justify-content: space-between;
+
+  .left-block {
+    display: flex;
+    align-items: center;
+
+    .title {
+      padding: .5em 1em;
+      font-size: 1.5em;
+      font-weight: bold;
+      background: #bbd;
+    }
+
+    .menu {
+      margin-left: 3em;
+    }
+  }
+
+  .logout {
+    display: flex;
+    align-items: center;
+    padding-right: 1em;
+  }
+}
+
+.content {
+  padding: 1em;
+}

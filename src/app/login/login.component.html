@@ -1,0 +1,35 @@
+<form [formGroup]="form">
+  <div class="form-field">
+    <label>Email:</label>
+    <input name="email">
+    &nbsp;&nbsp;<i>test@test.com</i>
+  </div>
+  <div class="form-field">
+    <label>Password:</label>
+    <input name="password" type="password">
+    &nbsp;&nbsp;<i>test</i>
+  </div>
+  <div class="form-buttons">
+    <a class="btn" (click)="login()">Login</a>
+  </div>
+</form>
+
+<div class='error' *ngIf='errorMessage'>
+  {{ errorMessage }}
+</div>
+
+<div class='tasks'>
+  <div class='title'>Tasks</div>
+  <ol>
+    <li>Make login form work</li>
+    <li>Add validation to fields:
+      <ul>
+        <li>Email should be in email format (with @)</li>
+        <li>Password length can't be less than 4</li>
+      </ul>
+    </li>
+    <li>Get products from ProductService in ProductListComponent and show their names on page</li>
+    <li>Complete logout() metod in AuthService</li>
+    <li>"Log out" should disappear if user is not logged in</li>
+  </ol>
+</div>
